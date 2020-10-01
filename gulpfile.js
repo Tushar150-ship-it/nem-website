@@ -226,3 +226,4 @@ gulp.task('default', ['build', 'server'], function() {
   gulp.watch(['src/assets/js/**/*.js'], ['javascript', browser.reload]);
   gulp.watch(['src/assets/img/**/*'], ['images', browser.reload]);
 });
+//tu
